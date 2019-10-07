@@ -18,21 +18,21 @@
     如果不对原始图片进行处理，很多**不是传送带的物体的引入会导致模型学到很多垃圾**
     将原始图片放在
     
-    FgSegNet-master2\SBI2015_dataset\baoguoQD\OG
+        FgSegNet-master2\SBI2015_dataset\baoguoQD\OG
     
-    FgSegNet-master2\SBI2015_dataset\baoguoQD\OI
+        FgSegNet-master2\SBI2015_dataset\baoguoQD\OI
     
-    FgSegNet-master2\SBI2015_train\OQD
+        FgSegNet-master2\SBI2015_train\OQD
     
     下，并创建
     
-    FgSegNet-master2\SBI2015_train\baoguoQD
+        FgSegNet-master2\SBI2015_train\baoguoQD
+     
+        FgSegNet-master2\SBI2015_dataset\baoguoQD\groundtruth
     
-    FgSegNet-master2\SBI2015_dataset\baoguoQD\groundtruth
+        FgSegNet-master2\SBI2015_dataset\baoguoQD\input
     
-    FgSegNet-master2\SBI2015_dataset\baoguoQD\input
-    
-    FgSegNet-master2\sample_test_frames\baoguoQD
+        FgSegNet-master2\sample_test_frames\baoguoQD
     
     然后， run ReSize.py
     
