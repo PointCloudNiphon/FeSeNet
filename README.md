@@ -1,7 +1,16 @@
 由于原来官方开源的代码使用的keras，以及tensorflow版本陈旧，在环境配置是问题很多，故重新写了一套win10下简易可行的配置方案
-1.  conda create Newpython36 python==3.6.3
-2.  activate Newpython36
-3.  pip install -r package.txt
+1.   创建虚拟环境
+      
+         conda create Newpython36 python==3.6.3
+        
+2.   进入
+
+         activate Newpython36
+        
+3.   安装package
+
+         pip install -r package.txt
+         
 4.  修改文件：
    
         <Your PYTHON 3.6>\site-packages\skimage\transform\pyramids.py里面的pyramid_reduce函数：
