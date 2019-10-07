@@ -42,8 +42,9 @@
  8.  run FgSegNet_M_S_SBI.py开始训练
  
  9.  开启jupyter查看，
+ 
        
-        run test_prediction.ipynb
+         run test_prediction.ipynb
     
     
     
