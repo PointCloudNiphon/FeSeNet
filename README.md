@@ -39,8 +39,10 @@
         run ReSize.py
     
     
- 8.  run FgSegNet_M_S_SBI.py开始训练
- 
+ 8.  开始训练
+        
+         run FgSegNet_M_S_SBI.py
+  
  9.  开启jupyter查看，
  
        
