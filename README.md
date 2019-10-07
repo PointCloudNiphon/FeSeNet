@@ -4,11 +4,11 @@
 3.  pip install -r package.txt
 4.  修改文件：
    
-             <Your PYTHON 3.6>\site-packages\skimage\transform\pyramids.py里面的pyramid_reduce函数：
+        <Your PYTHON 3.6>\site-packages\skimage\transform\pyramids.py里面的pyramid_reduce函数：
    
-            把out_shape = tuple([math.ceil(d / float(downscale)) for d in image.shape])
+        把out_shape = tuple([math.ceil(d / float(downscale)) for d in image.shape])
             
-            修改为out_shape = tuple([math.floor(d / float(downscale)) for d in image.shape])
+        修改为out_shape = tuple([math.floor(d / float(downscale)) for d in image.shape])
 5.  下载我的代码，替换原来的代码（主要修改了因为版本不同导致的代码差异）（原来有的，放在原来的位置，ReSize.py放在FgSegNet-master2下面）
 6.  数据集准备
 
@@ -34,12 +34,16 @@
     
         FgSegNet-master2\sample_test_frames\baoguoQD
     
-    然后， run ReSize.py
+    然后， 
+        
+        run ReSize.py
     
     
  8.  run FgSegNet_M_S_SBI.py开始训练
  
- 9.  开启jupyter查看，run test_prediction.ipynb
+ 9.  开启jupyter查看，
+       
+        run test_prediction.ipynb
     
     
     
