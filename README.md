@@ -9,7 +9,7 @@
             把out_shape = tuple([math.ceil(d / float(downscale)) for d in image.shape])
             
             修改为out_shape = tuple([math.floor(d / float(downscale)) for d in image.shape])
-5.  下载我的代码，替换原来的代码（主要修改了因为版本不同导致的代码差异）
+5.  下载我的代码，替换原来的代码（主要修改了因为版本不同导致的代码差异）（原来有的，放在原来的位置，ReSize.py放在FgSegNet-master2下面）
 6.  数据集准备
 
     按照SBI2015_train、SBI2015_dataset里面的格式，分别在两个文件夹下加入baoguoQD
