@@ -1,3 +1,8 @@
+**update:**
+从邮局搞得270张间隙10mm的图片已经跑完，具体步骤见10-
+
+
+
 由于原来官方开源的代码使用的keras，以及tensorflow版本陈旧，在环境配置是问题很多，故重新写了一套win10下简易可行的配置方案
 1.   创建虚拟环境
       
@@ -53,10 +58,14 @@
          run FgSegNet_M_S_SBI.py
   
  9.  开启jupyter查看，
- 
        
          run test_prediction.ipynb
-    
+   
+ 10.  将新采集的图片放在**10mm**文件夹，并放在test_prediction.ipynb同一目录，并下载新的ReSize.py
+ 
+ 11.  开启jupyter查看（后半部分）
+ 
+          run test_prediction.ipynb
     
     
     
